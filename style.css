@@ -12,7 +12,7 @@
 	height: 100%;
 	width: 100%;
 	margin-top: 1.5em;
-	overflow: hide;
+	overflow: hidden;
 }
 
 .window {
@@ -21,7 +21,7 @@
 	border-right: solid 3px #888;
 	border-left: solid 3px #aaa;
 	border-top: none;
-	background:transparent;
+	background: white;
 	border-top-right-radius:0.25em;
 	-moz-border-radius-topright:0.25em;
 	border-top-left-radius:0.25em;

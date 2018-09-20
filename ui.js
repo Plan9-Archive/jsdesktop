@@ -227,5 +227,5 @@ function resizeCompute(div) {
 	div.input.style.width = (width - 20) + 'px';
 	div.output.style.width = (width - 10) + 'px';
 	div.output.style.height = (height - 140) + 'px';
-	div.bg.style.height = (height - 50) + 'px';
+	div.bg.style.height = (height - 80) + 'px';
 }
