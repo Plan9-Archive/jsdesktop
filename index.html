@@ -1,0 +1,22 @@
+<!doctype HTML>
+<html>
+<head>
+<title>webdesktop</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript" src="ui.js"></script>
+<script type="text/javascript" src="extras.js"></script>
+<meta charset="utf-8"/>
+</head>
+<body onload="startui();"
+<h1>Javascript Desktop: A Backend-less Proof-of-Concept</h1>
+<div>
+	Press New button to get a new javascript shell window. When you type javascript into the input textarea and press enter, three things happen:</div>
+<ul><li>The text you typed goes to the output textarea.</li>
+<li>The text also gets run with eval(). No guardrails.</li>
+<li>If eval was successful, the input is cleared to accept more javascript.</li>
+</ul>
+<div>
+Any javascript your browser supports in eval should work. Be careful and enjoy.<br/><br/>
+</div>
+</body>
+</html>
